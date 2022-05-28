@@ -12,7 +12,6 @@ font-family: 'Marck Script', cursive;
 
 .cartitem {
   border-radius: 1rem;
-  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,11 +37,12 @@ font-family: 'Marck Script', cursive;
 
 .home {
   display: flex;
-  background-color: rgb(249, 246, 228);
+  background-color:#E8F9FD;
 }
 
 .filters {
-  background-color: #ffeeee;
+  border-radius: 2rem;
+  background-color: rgb(118, 193, 216);
   color: rgb(0, 0, 0);
   padding: 20px;
   display: flex;
@@ -74,6 +74,7 @@ font-family: 'Marck Script', cursive;
 }
 
 .products {
+  border-radius: 2rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 30%;
   margin: 10px;
